@@ -1,0 +1,12 @@
+[[language]]
+name = "rust"
+auto-format = true
+# config = { inlayHints.typeHints.enable = true }
+
+[language.config]
+checkOnSave = { command = "clippy" }
+inlayHints.typeHints.enable = true
+
+[[language]]
+name = "python"
+auto-format = true
